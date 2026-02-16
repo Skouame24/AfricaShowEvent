@@ -149,7 +149,6 @@ export function EditorialPreview() {
               whileHover={{ x: 4 }}
             >
             <Link
-              href="/editorial"
               key={article.title}
               href="/editorial"
               className="group flex gap-4 rounded-2xl border border-neutral-800/50 bg-neutral-900/30 p-4 transition-all duration-300 hover:border-neutral-700 hover:bg-neutral-900/60"

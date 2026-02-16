@@ -15,8 +15,10 @@ const navItems = [
 ];
 
 /* ─── Menu items par rôle ─── */
+type MenuItem = { href: string; label: string; badge?: string; badgeColor?: string; icon: React.ReactNode };
+
 function getDropdownItems(role: string) {
-  const common = [
+  const common: MenuItem[] = [
     {
       href: "/profile",
       label: "Mon profil",
